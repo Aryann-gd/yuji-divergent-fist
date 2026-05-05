@@ -1,0 +1,35 @@
+
+---
+
+## 🛡️ .gitignore (suggested draft)
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+venv/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE configs
+.vscode/
+.idea/
+
+# Debug outputs
+debug_frame.png
+debug_mask.png
+
+# Assets (optional: keep only source textures)
+assets/*.tmp
+assets/*.bak
+
+# Requirements lock (if generated)
+requirements.lock
